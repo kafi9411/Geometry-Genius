@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="m-8">
+            <div class="flex flex-col md:flex-row">
+                <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-4 ">
+                    <!-- card-1 -->
+                    <div class=" bg-pink-400 card card-compact bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                        <div class="card-body ">
+                          <h2 class="card-title justify-center  text-4xl">Triangle</h2>
+                          <p class="text-center text-2xl">Area (A) = 0.5 x b x h</p>
+                         <div class="text-2xl">
+                            <input id="triangleBase" class=" w-20" type="text" name="" id="" placeholder="base"><span>cm</span>
+                            <input id="triangleWidth" class="w-20"  type="text" name="" id="" placeholder="width"><span>cm </span>
+                         </div>
+                          <div class="card-actions justify-end">
+                            <button id="triangleButton" class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card-2 -->
+                      <div class="card card-compact bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/rectangle.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title justify-center  text-4xl">Rectangle</h2>
+                          <p class="text-center text-2xl">Area (A) = w x l</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                 
+                      <!-- card-3 -->
+                      <div class="card card-compact  bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title justify-center  text-4xl">Parallelogram</h2>
+                          <p class="text-center text-2xl">Area (A) = b x h</p>
+                          <p class="text-center text-2xl">b=10cm, h=12cm</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                 
+                      <!-- card-4 -->
+                      <div class="card card-compact bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title justify-center  text-4xl">Rhombus!</h2>
+                          <p class="text-center text-2xl">Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+                          <p class="text-center text-2xl">d<sub>1</sub> = 16cm,  d<sub>2</sub> = 8cm</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                 
+                      <!-- card-5 -->
+                      <div class="card card-compact  bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title justify-center  text-4xl">Rhombus</h2>
+                          <p class="text-center text-2xl">Area (A) = 0.5 x p x b</p>
+                          <p class="text-center text-2xl">p = 6cm, b = 10cm</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                 
+                      <!-- card-6 -->
+                      <div class="card card-compact  bg-base-100 shadow-xl p-8 m-8 border-2 border-gray-400">
+                        <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <h2 class="card-title justify-center  text-4xl">Ellipse</h2>
+                          <p class="text-center text-2xl">Area (A) = πab</p>
+                          <p class="text-center text-2xl">a = 10cm, b = 4cm</p>
+                          <div class="card-actions justify-end">
+                            <button class="btn btn-primary w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+                 
+
+                </div>
+                <div class="w-96 border-2 border-gray-400 rounded p-8 m-10">
+                    <h3 class="text-center text-4xl"><u>Area Calculation</u></h3>
+
+                </div>
+            </div>
+        </section>
+
+        <script src="js/triangle.js"></script>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
