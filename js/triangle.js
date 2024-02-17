@@ -9,6 +9,8 @@ document.getElementById('triangleButton').addEventListener('click', function(){
   
 
   const value =.5 * base * width
-  console.log(value )
+  
+  const calculteResultSpan = document.getElementById('result')
+  calculteResultSpan.innerText = value;
 
 })
