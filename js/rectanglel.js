@@ -3,7 +3,7 @@ function rectangleInput(){
     const length = inputValue('rectangleLength')
     const area = width*length
 
-    setInnerTextValue('result', area);      
+    setInnerTextValue('rectangleResult', area);      
 }
 function inputValue(element){
     const inputValueText =document.getElementById(element)
